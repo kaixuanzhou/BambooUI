@@ -1,3 +1,10 @@
-layout-header {
-
+layout-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  font-size: $font-size-small;
+  height: 5em;
+  width: 100%;
+  background: $header-bg-color;
 }

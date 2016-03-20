@@ -14,7 +14,8 @@
     "angular-resource": "~1.2.28",
     "angular-ui-router": "~0.2.13",
     "bootstrap-sass-official": "~3.3.3",
-    "angular-bootstrap": "0.12.x"
+    "angular-bootstrap": "0.12.x",
+    "requirejs": "^2.1.22"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.28"

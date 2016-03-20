@@ -13,6 +13,12 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
     controller: 'HomeIndexCtrl'
   });
 
+  $stateProvider.state('test', {
+    url: '/test',
+    templateUrl: 'controllers/home/test.html',
+    controller: 'TestCtrl'
+  });
+
   $stateProvider.state('notFound', {
     url: '/notFound',
     templateUrl: 'controllers/home/notFound.html',
